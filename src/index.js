@@ -9,7 +9,9 @@ telegramBot.start((ctx) => {
   ctx.reply("🔥🔥🔥 Seja bem vindo 🔥🔥🔥");
 });
 
-await telegramBot.launch();
+telegramBot.launch();
+
+console.log("🔥🔥🔥🔥 TelegramBot Runnig 🤖");
 
 // Finalizando processos do Telegram
 process.once("SIGINT", () => telegramBot.stop("SIGINT"));
