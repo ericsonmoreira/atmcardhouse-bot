@@ -4,15 +4,19 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "vc dev"
+    "start": "vercel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@vercel/node": "^2.14.2",
     "dotenv": "^16.0.3",
     "telebot": "^1.4.1",
-    "telebot-vercel": "^1.0.1"
+    "telebot-vercel": "^1.0.1",
+    "telegraf": "^4.12.2",
+    "vercel": "^29.3.0"
   },
-  "engines": {
-    "node": "^18.0.0"
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "typescript": "^5.0.4"
   }
 }
