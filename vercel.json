@@ -1,5 +1,8 @@
 {
-  "github": {
-    "silent": true
+  "functions": {
+    "api/bot.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
   }
 }
