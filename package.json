@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./src/index",
+    "vercel-build": "node ./src/index",
     "dev": "nodemon ./src/index"
   },
   "dependencies": {
