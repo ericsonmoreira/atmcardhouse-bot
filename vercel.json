@@ -1,11 +1,10 @@
 {
-  "version": 2,
-  "rewrites": [{ "source": "/src/(.*)", "destination": "/src" }],
-  "buildCommand": "node ./src/index",
-  "builds": [
-    {
-      "src": "src/server.ts",
-      "use": "@vercel/node"
+  "functions": {
+    "api/**": {
+      "includeFiles": "node_modules/telebot/plugins/**"
     }
-  ]
+  },
+  "github": {
+    "silent": true
+  }
 }
