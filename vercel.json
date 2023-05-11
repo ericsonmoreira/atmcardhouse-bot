@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "buildCommand": "node ./src/index",
   "builds": [
     {
       "src": "src/server.ts",
